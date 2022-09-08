@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-df=pd.read_csv('/content/Sentiment Data - audit_data.csv')
+df=pd.read_csv('Sentiment Data - audit_data.csv')
 header=st.container()
 input=st.container()
 model=st.container()
