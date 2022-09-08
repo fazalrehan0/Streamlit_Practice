@@ -14,7 +14,7 @@ with input:
  st.header('Enter the input')
  fcol,scol=st.columns(2)
  max_depth=fcol.slider('what should be the max?',min_value=10,max_value=100,value=30,step=10)
- estimate=scol.selectbox('what should be the estimate?',options=[100,200,300,'None'],index=0)
+ #estimate=scol.selectbox('what should be the estimate?',options=[100,200,300,'None'],index=0)
  ip=scol.text_input("Enter the text","Default")
  
 with model:
