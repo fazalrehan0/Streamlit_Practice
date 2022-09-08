@@ -6,7 +6,7 @@ input=st.container()
 model=st.container()
 with header:
  st.title('MY FIRST MODEL')
- st.text('hello in the model')
+ #st.text('hello in the model')
  st.write(df.head())
  disc=pd.DataFrame(df.sentiment.value_counts())
  st.bar_chart(disc)
