@@ -19,3 +19,4 @@ with input:
  
 with model:
  st.header('PREDICTIONS')
+ st.subheader('the predictions are')
